@@ -1,45 +1,25 @@
-# Hydrogen template: Skeleton
+# Oploë Frontend Store
 
-Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
+Welcome to the Oploë frontend project – where ancient myth meets modern commerce. This project is built on Shopify’s Hydrogen stack and Remix, designed to deliver a headless commerce experience with a touch of divine inspiration.
 
-[Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
-[Get familiar with Remix](https://remix.run/docs/en/v1)
+---
 
-## What's included
+## Technical Overview
 
-- Remix
-- Hydrogen
-- Oxygen
-- Vite
-- Shopify CLI
-- ESLint
-- Prettier
-- GraphQL generator
-- TypeScript and JavaScript flavors
-- Minimal setup of components and routes
+Oploë’s frontend leverages cutting-edge technologies to create a fast, interactive, and sustainable online store. Key components include:
 
-## Getting started
+- **Hydrogen & Remix:** Built on Shopify’s Hydrogen stack integrated with Remix for a full-stack web experience.
+- **Oxygen & Vite:** For optimized build performance and smooth development workflows.
+- **Shopify CLI, ESLint & Prettier:** Ensuring code quality and consistency.
+- **GraphQL Generator:** Facilitating efficient communication with the Shopify API.
+- **TypeScript and JavaScript:** Support for both, allowing flexibility in development.
 
-**Requirements:**
+### Getting Started
 
+**Requirements:**  
 - Node.js version 18.0.0 or higher
+
+**Installation:**
 
 ```bash
 npm create @shopify/hydrogen@latest
-```
-
-## Building for production
-
-```bash
-npm run build
-```
-
-## Local development
-
-```bash
-npm run dev
-```
-
-## Setup for using Customer Account API (`/account` section)
-
-Follow step 1 and 2 of <https://shopify.dev/docs/custom-storefronts/building-with-the-customer-account-api/hydrogen#step-1-set-up-a-public-domain-for-local-development>
